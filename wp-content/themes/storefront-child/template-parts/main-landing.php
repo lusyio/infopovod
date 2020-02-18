@@ -98,7 +98,7 @@ Template Post Type: post, page, product
                     <div class="col-12 col-lg-7">
                         <img src="/wp-content/themes/storefront-child/images/presentation.png" alt="">
                     </div>
-                    <div class="col-12 col-lg-5 m-auto">
+                    <div class="col-12 col-lg-5 pr-lg-5 pr-unset m-auto">
                         <p>Посмотрите <strong>презентацию компании</strong>, чтобы получить полное представление о
                             ее
                             деятельности</p>
