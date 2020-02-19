@@ -54,6 +54,7 @@ function enqueue_child_theme_styles()
     wp_enqueue_script('wp-bootstrap-starter-themejs', get_stylesheet_directory_uri() . '/inc/assets/js/theme-script.min.js', array(), '', true);
     wp_enqueue_script('wp-bootstrap-starter-skip-link-focus-fix', get_stylesheet_directory_uri() . '/inc/assets/js/skip-link-focus-fix.min.js', array(), '', true);
 
+
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
@@ -90,6 +91,9 @@ remove_action('wp_head', 'start_post_rel_link', 10);
 remove_action('wp_head', 'index_rel_link');
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10);
 remove_action('wp_head', 'wp_shortlink_wp_head', 10);
+
+wp_enqueue_script('custom', '/wp-content/themes/storefront-child/inc/assets/js/custom.js', array('jquery'), array(), true);
+
 
 /**
  * `Disable Emojis` Plugin Version: 1.7.2
@@ -326,4 +330,92 @@ function jk_related_products_args($args)
     $args['columns'] = 4; // количество колонок
     return $args;
 }
+
+/**
+ * Удаляем div-обертку полей для ввода и submit-ов
+ */
+add_filter('caldera_forms_render_field_structure', function ($field_structure) {
+    $elementIds = [
+        'fld_7219953',
+        'fld_8676165',
+        'fld_1104370',
+        'fld_7003289',
+        'fld_8150571',
+        'fld_6698757',
+    ];
+    if (in_array($field_structure['id'], $elementIds)) {
+        $field_structure['wrapper_before'] = '';
+        $field_structure['wrapper_after'] = '';
+    }
+    if (in_array($field_structure['id'], $elementIds)) {
+        $field_structure['field_before'] = '';
+        $field_structure['field_after'] = '';
+    }
+    return $field_structure;
+});
+
+/**
+ * Получаем html-код submit-ов
+ */
+$submit_field = [];
+add_filter('caldera_forms_render_field_slug-email_wait', function ($field_html) {
+    global $submit_field;
+    $submit_field['email_wait'] = $field_html;
+    return $field_html;
+});
+add_filter('caldera_forms_render_field_slug-message_wait', function ($field_html) {
+    global $submit_field;
+    $submit_field['message_wait'] = $field_html;
+    return $field_html;
+});
+add_filter('caldera_forms_render_field_slug-call_wait', function ($field_html) {
+    global $submit_field;
+    $submit_field['call_wait'] = $field_html;
+    return $field_html;
+});
+add_filter('caldera_forms_render_field_slug-order', function ($field_html) {
+    global $submit_field;
+    $submit_field['call_wait'] = $field_html;
+    return $field_html;
+});
+
+/**
+ * Присоединяем submit'ы к текстовым полям
+ */
+
+add_filter('caldera_forms_render_field_structure', function ($field_structure) {
+    if ($field_structure['id'] == 'fld_7219953' || $field_structure['id'] == 'fld_8676165') {
+        $field_structure['wrapper_before'] = '';
+        $field_structure['wrapper_after'] = '';
+    }
+    if ($field_structure['id'] == 'fld_8676165') {
+        $field_structure['field_before'] = '';
+        $field_structure['field_after'] = '</div>';
+    }
+    if ($field_structure['id'] == 'fld_7219953') {
+        $field_structure['field_before'] = '<div class="input-group justify-content-center">';
+        $field_structure['field_after'] = '';
+    }
+
+    if ($field_structure['id'] == 'fld_7003289' || $field_structure['id'] == 'fld_1104370') {
+        $field_structure['wrapper_before'] = '';
+        $field_structure['wrapper_after'] = '';
+    }
+    if ($field_structure['id'] == 'fld_7003289') {
+        $field_structure['field_before'] = '';
+        $field_structure['field_after'] = '</div>';
+    }
+    if ($field_structure['id'] == 'fld_1104370') {
+        $field_structure['field_before'] = '<div class="input-group justify-content-center">';
+        $field_structure['field_after'] = '';
+    }
+
+    if ($field_structure['id'] == 'fld_6698757' || $field_structure['id'] == 'fld_8150571') {
+        $field_structure['wrapper_before'] = '';
+        $field_structure['wrapper_after'] = '';
+    }
+
+
+    return $field_structure;
+});
 

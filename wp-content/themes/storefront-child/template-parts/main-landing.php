@@ -13,14 +13,14 @@ Template Post Type: post, page, product
     <div class="after-header">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-lg-10 offset-lg-1 offset-0">
                     <p class="after-header__header">Генерим <span>информационные бомбы с гарантией.</span> Моментальное
                         внимание
                         федеральных СМИ к вам или к вашему бренду. <span>От заявки до популярности 24 часа</span></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-4 after-header__card mt-3">
+                <div class="col-12 col-lg-4 after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/chat.svg" alt="">
                     <p class="after-header__card-title">Наше преимущество:</p>
                     <p>Личные дружественные связи с представителями <strong>ТОП-100 СМИ</strong> России и мира</p>
@@ -32,7 +32,7 @@ Template Post Type: post, page, product
                         нами
                     </p>
                 </div>
-                <div class="col-12 col-lg-4 after-header__card mt-3">
+                <div class="col-12 col-lg-4 after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/gold.svg" alt="">
                     <p class="after-header__card-title">Наша результативность:</p>
                     <p><strong>10-кратное увеличение продаж</strong> после проведения информационного взрыва</p>
@@ -41,10 +41,7 @@ Template Post Type: post, page, product
             <div class="row">
                 <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                     <p class="after-header__text">Оставьте телефон, и мы предложим 10 идей, чтобы вы стали известным</p>
-                    <div class="input-group justify-content-center">
-                        <input placeholder="Укажите номер телефона" type="text">
-                        <button class="btn btn-primary">Cтать известным</button>
-                    </div>
+                    <?= do_shortcode("[caldera_form id=\"CF5e4d0a8943d73\"]"); ?>
                 </div>
             </div>
         </div>
@@ -102,7 +99,7 @@ Template Post Type: post, page, product
                         <p>Посмотрите <strong>презентацию компании</strong>, чтобы получить полное представление о
                             ее
                             деятельности</p>
-                        <button class="btn btn-primary">Скачать презентацию</button>
+                        <a href="#" download class="btn btn-primary">Скачать презентацию</a>
                     </div>
                 </div>
             </div>
@@ -111,7 +108,6 @@ Template Post Type: post, page, product
 </div>
 
 <div class="black-post publication">
-    <img src="/wp-content/themes/storefront-child/images/jackie.png" alt="">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-5 offset-0 offset-lg-7">
@@ -134,14 +130,14 @@ Template Post Type: post, page, product
                     <p class="publications__media"><span>250</span>Публикаций в федеральных СМИ</p>
                 </div>
 
-                <button class="btn btn-outline">Смотреть видео</button>
+                <a href="https://youtu.be/ngfEkJHMPb8" target="_blank" class="btn btn-outline">Смотреть видео</a>
             </div>
         </div>
     </div>
+    <img src="/wp-content/themes/storefront-child/images/jackie.png" alt="">
 </div>
 
 <div class="publication">
-    <img src="/wp-content/themes/storefront-child/images/buzova.png" alt="">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-5">
@@ -163,14 +159,14 @@ Template Post Type: post, page, product
                     <p class="publications__media"><span>70</span>Публикаций в федеральных СМИ</p>
                 </div>
 
-                <button class="btn btn-outline">Смотреть видео</button>
+                <a href="https://youtu.be/_jF5N8uJTpU" target="_blank" class="btn btn-outline">Смотреть видео</a>
             </div>
         </div>
     </div>
+    <img src="/wp-content/themes/storefront-child/images/buzova.png" alt="">
 </div>
 
 <div class="yellow-post publication">
-    <img src="/wp-content/themes/storefront-child/images/goat.png" alt="">
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-5">
@@ -190,13 +186,14 @@ Template Post Type: post, page, product
                     <p class="publications__media"><span>70</span>Публикаций в федеральных СМИ</p>
                 </div>
 
-                <button class="btn btn-outline">Смотреть видео</button>
+                <a href="https://youtu.be/EJlwU2d6YVQ" target="_blank" class="btn btn-outline">Смотреть видео</a>
             </div>
         </div>
     </div>
+    <img src="/wp-content/themes/storefront-child/images/goat.png" alt="">
 </div>
 
-<div class="black-post publication">
+<div class="black-post last publication">
     <img src="/wp-content/themes/storefront-child/images/hacker.png" alt="">
     <div class="container">
         <div class="row">
@@ -219,7 +216,8 @@ Template Post Type: post, page, product
                     <p class="publications__media"><span>60</span>Публикаций в федеральных СМИ</p>
                 </div>
 
-                <button class="btn btn-outline">Смотреть видео</button>
+                <a href="https://ren.tv/video/embed/567286#autoplay=1" target="_blank" class="btn btn-outline">Смотреть
+                    видео</a>
             </div>
         </div>
     </div>
@@ -234,19 +232,18 @@ Template Post Type: post, page, product
             <div class="col-12 col-lg-5 howItWorks_card">
                 <div><span>1</span>
                     <p>Вы обращаетесь к нам с задачей</p></div>
-                <input class="form-control" placeholder="Укажите номер телефона" type="text">
-                <button class="btn btn-primary">Обратиться с задачей</button>
+                <?= do_shortcode("[caldera_form id=\"CF5e4d14e3f2f55\"]") ?>
             </div>
             <div class="col-lg-2 d-lg-flex d-none">
-                <img src="/wp-content/themes/storefront-child/svg/1st-arrow.svg" alt="">
+                <img class="first-arrow" src="/wp-content/themes/storefront-child/svg/1st-arrow.svg" alt="">
             </div>
             <div class="col-12 col-lg-5 howItWorks_card mt-auto">
                 <div><span>2</span>
-                    <p class="mb-2">Мы <strong>придумываем 50 идей</strong> и выбираем 10 из них</p></div>
+                    <p class="mb-lg-2 mb-0">Мы <strong>придумываем 50 идей</strong> и выбираем 10 из них</p></div>
                 <img class="d-lg-block d-none m-auto" src="/wp-content/themes/storefront-child/svg/2nd-arrow.svg"
                      alt="">
             </div>
-            <div class="col-12 col-lg-6 offset-0 offset-lg-6 howItWorks_card mt-4">
+            <div class="col-12 col-lg-6 offset-0 offset-lg-6 howItWorks_card mt-lg-4 mt-0">
                 <div>
                     <span>3</span>
                     <p>В процессе <strong>консультаций с журналистами и юристами мы оставляем 2
@@ -260,7 +257,7 @@ Template Post Type: post, page, product
                     <p>Вы одобряете акцию и уже через два дня вы или ваш товар будет греметь по всей стране и даже
                         миру!</p></div>
             </div>
-            <div class="col-12 col-lg-10 offset-0 offset-lg-2 howItWorks__footer">
+            <div class="col-12 col-lg-8 offset-0 offset-lg-2 howItWorks__footer">
                 <p>Наша задача, чтобы федеральные каналы и другие СМИ стояли в очереди к вам за интервью. Причем это
                     сюжет и статьи будут опубликованы ими совершенно бесплатно!</p>
             </div>
@@ -283,21 +280,28 @@ Template Post Type: post, page, product
     </div>
 </div>
 
-<div class="price-list">
+<div id="price" class="price-list">
     <div class="container">
         <div class="row row-top">
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <p class="price-list__header">Стоимость информационного взрыва</p>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="price-list__card mt-4">
+                <div class="price-list__card">
                     <div class="price-list__card-body">
                         <p class="price-list__card-title">Брейншторм</p>
                         <p>Крышесносный сценарий инфоповода без реализации</p>
-                        <ul>
-                            <li>Генерации идеи</li>
-                            <li>Самостоятельная реализация заказчиком</li>
-                        </ul>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Генерация идеи</p>
+                        </div>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Самостоятельная
+                                реализация заказчиком</p>
+                        </div>
                         <span>120.000 р</span>
                     </div>
                 </div>
@@ -307,23 +311,47 @@ Template Post Type: post, page, product
                     <div class="price-list__card-body">
                         <p class="price-list__card-title">Бомбалейло</p>
                         <p>Мощный новостной взрыв Федерального уровня</p>
-                        <ul>
-                            <li>Генерации идеи</li>
-                            <li>Самостоятельная реализация заказчиком</li>
-                        </ul>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Генерация идеи</p>
+                        </div>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Реализация инфоповода</p>
+                        </div>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Гарантированное
+                                количество публикаций в <strong>федеральных СМИ</strong> – 25</p>
+                        </div>
                         <span>550.000 р</span>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
-                <div class="price-list__card mt-4">
+                <div class="price-list__card">
                     <div class="price-list__card-body">
                         <p class="price-list__card-title">Барбаросса</p>
                         <p>Молниеносный захват мировых информационных площадок</p>
-                        <ul>
-                            <li>Генерации идеи</li>
-                            <li>Самостоятельная реализация заказчиком</li>
-                        </ul>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Генерация идеи</p>
+                        </div>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Реализация инфоповода</p>
+                        </div>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="">
+                            <p>Гарантированное количество публикаций в <strong>федеральных
+                                    и международных СМИ</strong> – 30</p>
+                        </div>
                         <span>1.000.000 р</span>
                     </div>
                 </div>
@@ -332,13 +360,10 @@ Template Post Type: post, page, product
         <div class="row">
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <p class="price-list__request">Оставьте заявку, и мы с вами свяжемся в течение 15 минут</p>
-                <div class="input-group">
-                    <input placeholder="Укажите номер телефона" type="text">
-                    <button class="btn btn-primary">Оставить заявку</button>
-                </div>
+                <?= do_shortcode("[caldera_form id=\"CF5e4d109a02ea7\"]") ?>
             </div>
         </div>
-        <div class="row">
+        <div id="contact" class="row">
             <div class="col-12">
                 <p class="price-list__contact">Контакты</p>
             </div>

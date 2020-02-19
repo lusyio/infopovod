@@ -31,89 +31,95 @@
             <?php endif; ?>
 
             <div class="container">
+                <?php if (is_front_page()) : ?>
                 <nav class="navbar navbar-dark navbar-expand-lg p-0 justify-content-between">
-                    <div class="navbar-brand">
-                        <?php if (get_theme_mod('wp_bootstrap_starter_logo')): ?>
-                            <div class="site-info">
-                                <a href="<?php echo esc_url(home_url('/')); ?>"><?= esc_url(get_bloginfo('name')); ?>
-                                    <img src="<?= esc_url(get_theme_mod('wp_bootstrap_starter_logo')); ?>"
-                                         alt="<?= esc_attr(get_bloginfo('name')); ?>">
-                                </a>
-                            </div>
-                        <?php else : ?>
-                            <div class="site-info">
-                                <a class="site-title"
-                                   href="<?php echo esc_url(home_url('/')); ?>"> PR-агенство
-                                    <span>«<?php esc_url(bloginfo('name')); ?>»</span>
-                                </a>
-                                <p class="mb-0 site-description"><?php bloginfo('description'); ?></p>
-                            </div>
+                    <?php else: ?>
+                    <nav class="navbar navbar-light navbar-expand-lg p-0 justify-content-between">
                         <?php endif; ?>
-                    </div>
 
-                    <div class="d-flex">
-                        <?php
-                        wp_nav_menu(array(
-                            'theme_location' => 'primary',
-                            'container' => 'div',
-                            'container_id' => '',
-                            'container_class' => 'collapse navbar-collapse justify-content-end mr-2',
-                            'menu_id' => false,
-                            'menu_class' => 'navbar-nav',
-                            'depth' => 3,
-                            'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
-                            'walker' => new wp_bootstrap_navwalker()
-                        ));
-                        ?>
-                        <?php if (class_exists('WooCommerce')): ?>
-                            <div
-                                    class="s-header__basket-wr woocommerce mr-1 mr-sm-4 mt-auto mb-auto z-5 position-relative">
-                                <?php
-                                global $woocommerce; ?>
-                                <a href="<?php echo $woocommerce->cart->get_cart_url() ?>"
-                                   class="basket-btn basket-btn_fixed-xs text-decoration-none position-relative">
+                        <div class="navbar-brand">
+                            <?php if (get_theme_mod('wp_bootstrap_starter_logo')): ?>
+                                <div class="site-info">
+                                    <a href="<?php echo esc_url(home_url('/')); ?>"><?= esc_url(get_bloginfo('name')); ?>
+                                        <img src="<?= esc_url(get_theme_mod('wp_bootstrap_starter_logo')); ?>"
+                                             alt="<?= esc_attr(get_bloginfo('name')); ?>">
+                                    </a>
+                                </div>
+                            <?php else : ?>
+                                <div class="site-info">
+                                    <a class="site-title"
+                                       href="<?php echo esc_url(home_url('/')); ?>"> PR-агенство <br
+                                                class="d-lg-none d-block">
+                                        <span>«<?php esc_url(bloginfo('name')); ?>»</span>
+                                    </a>
+                                    <p class="mb-0 site-description"><?php bloginfo('description'); ?></p>
+                                </div>
+                            <?php endif; ?>
+                        </div>
+
+                        <div class="d-flex">
+                            <?php
+                            wp_nav_menu(array(
+                                'theme_location' => 'primary',
+                                'container' => 'div',
+                                'container_id' => '',
+                                'container_class' => 'collapse navbar-collapse justify-content-end mr-2',
+                                'menu_id' => false,
+                                'menu_class' => 'navbar-nav',
+                                'depth' => 3,
+                                'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                                'walker' => new wp_bootstrap_navwalker()
+                            ));
+                            ?>
+                            <?php if (class_exists('WooCommerce')): ?>
+                                <div
+                                        class="s-header__basket-wr woocommerce mr-1 mr-sm-4 mt-auto mb-auto z-5 position-relative">
+                                    <?php
+                                    global $woocommerce; ?>
+                                    <a href="<?php echo $woocommerce->cart->get_cart_url() ?>"
+                                       class="basket-btn basket-btn_fixed-xs text-decoration-none position-relative">
                         <span class="basket-btn__label"><img src="/wp-content/themes/storefront-child/svg/cart.svg"
                                                              alt=""></span>
-                                    <?php if (sprintf($woocommerce->cart->cart_contents_count) != 0): ?>
-                                        <span
-                                                class="basket-btn__counter"><?php echo sprintf($woocommerce->cart->cart_contents_count); ?></span>
-                                    <?php endif; ?>
-                                </a>
-                            </div>
-                        <?php endif; ?>
+                                        <?php if (sprintf($woocommerce->cart->cart_contents_count) != 0): ?>
+                                            <span
+                                                    class="basket-btn__counter"><?php echo sprintf($woocommerce->cart->cart_contents_count); ?></span>
+                                        <?php endif; ?>
+                                    </a>
+                                </div>
+                            <?php endif; ?>
 
-                        <div class="outer-menu">
-                            <button class="navbar-toggler position-relative" type="button" style="z-index: 1">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <input class="checkbox-toggle" data-toggle="collapse" data-target="#main-nav"
-                                   aria-controls="" aria-expanded="false" aria-label="Toggle navigation"
-                                   type="checkbox"/>
-                            <div class="menu">
-                                <div>
-                                    <div class="border-header">
-                                        <?php
-                                        wp_nav_menu(array(
-                                            'theme_location' => 'primary',
-                                            'container' => 'div',
-                                            'container_id' => 'main-nav',
-                                            'container_class' => 'collapse navbar-collapse justify-content-end',
-                                            'menu_id' => false,
-                                            'menu_class' => 'navbar-nav',
-                                            'depth' => 3,
-                                            'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
-                                            'walker' => new wp_bootstrap_navwalker()
-                                        ));
-                                        ?>
+                            <div class="outer-menu">
+                                <button class="navbar-toggler position-relative" type="button" style="z-index: 1">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <input class="checkbox-toggle" data-toggle="collapse" data-target="#main-nav"
+                                       aria-controls="" aria-expanded="false" aria-label="Toggle navigation"
+                                       type="checkbox"/>
+                                <div class="menu">
+                                    <div>
+                                        <div class="border-header">
+                                            <?php
+                                            wp_nav_menu(array(
+                                                'theme_location' => 'primary',
+                                                'container' => 'div',
+                                                'container_id' => 'main-nav',
+                                                'container_class' => 'collapse navbar-collapse justify-content-end',
+                                                'menu_id' => false,
+                                                'menu_class' => 'navbar-nav',
+                                                'depth' => 3,
+                                                'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
+                                                'walker' => new wp_bootstrap_navwalker()
+                                            ));
+                                            ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="d-lg-flex d-none">
-                        <p class="site-phone"><a href="tel:+7 926 917-21-23">8 (926) 917-21-23</a></p>
-                    </div>
-                </nav>
+                        <div class="d-lg-flex d-none">
+                            <p class="site-phone"><a href="tel:+7 926 917-21-23">8 (926) 917-21-23</a></p>
+                        </div>
+                    </nav>
             </div>
 
         </header><!-- #masthead -->

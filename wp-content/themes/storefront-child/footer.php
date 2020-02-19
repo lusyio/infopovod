@@ -49,16 +49,16 @@
             <div class="col-12">
                 <hr>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12 order-lg-1 order-2">
                         <p class="footer-name-p">
                             <?php echo '<a class="footer-name" href="' . home_url() . '">' . get_bloginfo('name') . '</a>'; ?>
                             &copy;
                             <?php echo date('Y'); ?>
                         </p>
                     </div>
-                    <div class="col-6">
-                        <div class="d-flex">
-                            <p class="mb-0 mr-5">
+                    <div class="col-lg-6 col-12 order-lg-2 order-1">
+                        <div class="d-block d-lg-flex">
+                            <p class="mb-0 mr-lg-5 mr-0">
                                 <a class="footer-terms" href="/terms/">Договор оферты</a>
                             </p>
                             <p class="mb-0">
@@ -66,7 +66,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-2">
+                    <div class="col-lg-2 col-12 order-3">
                         <p class="mb-0 footer-credits d-lg-block">
                             <a class="credits" href="https://richbee.ru/" target="_blank">
                                 <img src="/wp-content/themes/storefront-child/svg/Richbee-white.svg" alt="">
