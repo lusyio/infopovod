@@ -110,7 +110,7 @@ Template Post Type: post, page, product
 <div class="black-post publication">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-5 offset-0 offset-lg-7">
+            <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-0 offset-lg-7">
                 <p class="post__header">Привлечение к субсидиарке Джеки Чана и Шварцнегера</p>
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">Группа инвесторов и финансистов</p>
@@ -140,7 +140,7 @@ Template Post Type: post, page, product
 <div class="publication">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-5">
+            <div class="col-12 col-md-7 col-lg-5">
                 <p class="post__header">Иск к звездам по делу “Кэшбери”</p>
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">Адвокат Тимур Маршани</p>
@@ -169,7 +169,7 @@ Template Post Type: post, page, product
 <div class="yellow-post publication">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-5">
+            <div class="col-12 col-md-7 col-lg-5">
                 <p class="post__header">Похищение козлов с крыши дома</p>
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">“Экокомплект”</p>
@@ -197,7 +197,7 @@ Template Post Type: post, page, product
     <img src="/wp-content/themes/storefront-child/images/hacker.png" alt="">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-5 offset-0 offset-lg-7">
+            <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-0 offset-lg-7">
                 <p class="post__header">Хакерская атакая на АЭС</p>
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">Московский завод «Физприбор»</p>
@@ -286,7 +286,7 @@ Template Post Type: post, page, product
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <p class="price-list__header">Стоимость информационного взрыва</p>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-8 offset-lg-0 offset-0 offset-md-2 col-lg-4">
                 <div class="price-list__card">
                     <div class="price-list__card-body">
                         <p class="price-list__card-title">Брейншторм</p>
@@ -306,7 +306,7 @@ Template Post Type: post, page, product
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-8 offset-lg-0 offset-0 offset-md-2 col-lg-4">
                 <div class="price-list__card">
                     <div class="price-list__card-body">
                         <p class="price-list__card-title">Бомбалейло</p>
@@ -331,7 +331,7 @@ Template Post Type: post, page, product
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-8 offset-lg-0 offset-0 offset-md-2 col-lg-4">
                 <div class="price-list__card">
                     <div class="price-list__card-body">
                         <p class="price-list__card-title">Барбаросса</p>
@@ -367,7 +367,7 @@ Template Post Type: post, page, product
             <div class="col-12">
                 <p class="price-list__contact">Контакты</p>
             </div>
-            <div class="col-12 col-lg-4 offset-0 offset-lg-2">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-0 offset-lg-2">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Радмир Рахимов</p>
@@ -379,7 +379,7 @@ Template Post Type: post, page, product
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-8 offset-md-2 offset-0 offset-lg-0 col-lg-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Наиль Шарипов</p>

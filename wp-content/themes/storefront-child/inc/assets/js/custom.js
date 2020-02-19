@@ -1,8 +1,9 @@
 jQuery(function ($) {
     const $page = $('html, body');
-    $('a[href*="#"]').click(function () {
+    $('a[href*="#"]').on('click', function () {
+        let blockId = $.attr(this, 'href').slice(1)
         $page.animate({
-            scrollTop: $($.attr(this, 'href')).offset().top - 50
+            scrollTop: $(`${blockId}`).offset().top - 50
         }, 1000);
         return false;
     });
