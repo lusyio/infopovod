@@ -15,7 +15,9 @@ Template Post Type: post, page, product
         </div>
 
         <?php
-        $posts = get_posts(10);
+        $posts = get_posts(array(
+            'numberposts' => 10
+        ));
         foreach ($posts as $post) :?>
 
             <?php
