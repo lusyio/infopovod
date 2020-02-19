@@ -15,7 +15,7 @@ Template Post Type: post, page, product
         </div>
 
         <?php
-        $posts = get_posts();
+        $posts = get_posts(10);
         foreach ($posts as $post) :?>
 
             <?php
@@ -30,11 +30,10 @@ Template Post Type: post, page, product
                          alt="">
                     <div class="project-card__body">
                         <p class="project-card__header"><?= $post->post_title ?> </p>
-                        <p class="project-card__content"><strong>Заказчик:</strong> <?= $content_parts[1] ?></p>
-                        <p class="project-card__content"><strong>Задача:</strong> <?= $content_parts[2] ?></p>
-                        <p class="project-card__content"><strong>Суть инфоповода:</strong> <?= $content_parts[3] ?>
-                        </p>
-                        <p class="project-card__content"><strong>Результат:</strong> <?= $content_parts[4] ?></p>
+                        <?= ($content_parts[2]) ? '<p class="project-card__content"><strong>Заказчик:</strong> ' . $content_parts[1] . '</p>' : '' ?>
+                        <?= ($content_parts[2]) ? '<p class="project-card__content"><strong>Задача:</strong> ' . $content_parts[2] . '</p>' : '' ?>
+                        <?= ($content_parts[3]) ? '<p class="project-card__content"><strong>Суть инфоповода:</strong> ' . $content_parts[3] . '</p>' : '' ?>
+                        <?= ($content_parts[4]) ? '<p class="project-card__content"><strong>Результат:</strong> ' . $content_parts[4] . '</p>' : '' ?>
                         <div class="project-card__media">
                             <p><img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                     alt=""><strong><?= get_post_meta($post->ID, 'tv', true) ?></strong> на тв
@@ -52,7 +51,8 @@ Template Post Type: post, page, product
 
         <?php endforeach; ?>
         <div class="col-12 col-lg-8 offset-lg-2 offset-0">
-            <p class="projects__footer"><strong>Еще 400 кейсов</strong> мы не имеем права обнародовать в ближайшие 50 лет по договору о неразглашении.</p>
+            <p class="projects__footer"><strong>Еще 400 кейсов</strong> мы не имеем права обнародовать в ближайшие 50
+                лет по договору о неразглашении.</p>
         </div>
     </div>
 </div>
