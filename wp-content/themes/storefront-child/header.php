@@ -30,7 +30,7 @@
         <header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
             <?php endif; ?>
 
-            <div class="container">
+            <div class="container p-0">
                 <?php if (is_front_page()) : ?>
                 <nav class="navbar navbar-dark navbar-expand-lg p-0 justify-content-between">
                     <?php else: ?>
