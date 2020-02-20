@@ -11,11 +11,14 @@ Author URI:   https://richbee.ru/
 
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap&subset=cyrillic');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic');
+
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 body {
+    font-family: 'Open Sans', sans-serif !important;
     margin: 0;
     -moz-osx-font-smoothing: auto;
     -webkit-font-smoothing: auto;
@@ -339,9 +342,10 @@ header#masthead .site-phone > a:hover {
 }
 
 header#masthead {
+    padding-top: 30px;
+    padding-bottom: 30px;
     opacity: 1;
     font-family: 'Open Sans', sans-serif;
-    padding: 1.9rem 1rem !important;
     background: #FFFFFF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
     color: #0F0F0F;
@@ -445,7 +449,7 @@ header#masthead.black-header .navbar .navbar-collapse .navbar-nav .nav-item a:ho
 header#masthead.black-header .navbar .navbar-nav .nav-link {
     position: relative;
     padding: 1rem 0 !important;
-    margin: 0 1rem;
+    margin: 0 22px;
     color: #fff !important;
     transition: color .1s cubic-bezier(.4, 0, .2, 1);
 }
@@ -453,7 +457,7 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 .navbar .navbar-nav .nav-link {
     position: relative;
     padding: 1rem 0 !important;
-    margin: 0 1rem;
+    margin: 0 22px;
     color: #0F0F0F !important;
     transition: color .1s cubic-bezier(.4, 0, .2, 1);
 }
@@ -654,7 +658,7 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 
 .after-header {
     padding-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     background: #131313;
     position: relative;
 }
@@ -749,8 +753,8 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 }
 
 .explosive {
-    padding-top: 90px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 100px;
     background: url('/wp-content/themes/storefront-child/svg/Ellipse.svg'), round;
     position: relative;
 }
@@ -845,8 +849,8 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 
 .presentation {
     background: #FFEACA url('/wp-content/themes/storefront-child/svg/eclipse-presentation.svg');
-    padding-top: 140px;
-    padding-bottom: 110px;
+    padding-top: 90px;
+    padding-bottom: 100px;
     position: relative;
 }
 
@@ -953,7 +957,7 @@ body .btn.btn-outline:hover {
 .howItWorks {
     background: url('/wp-content/themes/storefront-child/svg/Ellipse.svg'), round;
     padding-top: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 110px;
     position: relative;
 }
 
@@ -1048,7 +1052,7 @@ body .howItWorks .alert.alert-success {
 
 .service {
     background: #131313;
-    padding-top: 120px;
+    padding-top: 70px;
     position: relative;
 }
 
@@ -1088,7 +1092,7 @@ body .howItWorks .alert.alert-success {
 
 .price-list {
     background: url('/wp-content/themes/storefront-child/svg/Ellipse.svg'), round;
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 80px;
 }
 
@@ -1477,10 +1481,16 @@ body .alert.alert-success {
 # POST
 --------------------------------------------------------------*/
 
+.publication.black-post {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 105px;
+}
+
 .publication {
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 65px;
 }
 
 .publication:after {
@@ -1579,6 +1589,11 @@ body .alert.alert-success {
     position: relative;
 }
 
+.black-post.publication.last {
+    padding-top: 32px;
+    padding-bottom: 90px;
+}
+
 .black-post.publication:after {
     content: '';
     position: absolute;
@@ -1616,7 +1631,7 @@ body .alert.alert-success {
 --------------------------------------------------------------*/
 
 .yellow-post.publication {
-    padding-top: 150px;
+    padding-top: 105px;
     background: #FFEACA url('/wp-content/themes/storefront-child/svg/eclipse-presentation.svg');
     position: relative;
 }
@@ -2132,6 +2147,22 @@ and (min-width: 768px) {
 @media screen
 and (max-width: 1199px) {
 
+    header#masthead.black-header .navbar .navbar-nav .nav-link {
+        position: relative;
+        padding: 1rem 0 !important;
+        margin: 0 1rem;
+        color: #fff !important;
+        transition: color .1s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    .navbar .navbar-nav .nav-link {
+        position: relative;
+        padding: 1rem 0 !important;
+        margin: 0 1rem;
+        color: #0F0F0F !important;
+        transition: color .1s cubic-bezier(.4, 0, .2, 1);
+    }
+
     .outer-menu .menu li > a {
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -2213,11 +2244,11 @@ and (max-width: 768px) {
         padding-bottom: 75px;
     }
 
-    .project-card .project-card__content{
+    .project-card .project-card__content {
         margin-bottom: 15px;
     }
 
-    .project-card__media{
+    .project-card__media {
         margin-bottom: 30px;
     }
 
