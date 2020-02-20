@@ -2150,12 +2150,12 @@ and (max-width: 1199px) {
 @media screen
 and (max-width: 991px) {
 
-    .project-card__body, .project-card .project-card__img {
+    .project-card .project-card__body, .project-card .project-card__img {
         height: auto;
     }
 
     .project-card__media {
-        position: relative;
+        position: unset;
     }
 
     .price-list__card {
