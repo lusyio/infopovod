@@ -1503,6 +1503,8 @@ body .alert.alert-success {
     font-size: 18px;
     line-height: 25px;
     color: #0C0C0C;
+    display: flex;
+    align-items: center;
 }
 
 .publication .post__header {

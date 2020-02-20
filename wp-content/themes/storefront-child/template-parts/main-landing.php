@@ -20,19 +20,19 @@ Template Post Type: post, page, product
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-4 after-header__card">
+                <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4  after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/chat.svg" alt="">
                     <p class="after-header__card-title">Наше преимущество:</p>
                     <p>Личные дружественные связи с представителями <strong>ТОП-100 СМИ</strong> России и мира</p>
                 </div>
-                <div class="col-12 col-lg-4 after-header__card">
+                <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4 after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/trophy.svg" alt="">
                     <p class="after-header__card-title">Наш рекорд:</p>
                     <p>В одном из выпусков новостей <strong>Первого Канала 3 из 7 сюжетов</strong> были сгенерированы
                         нами
                     </p>
                 </div>
-                <div class="col-12 col-lg-4 after-header__card">
+                <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4 after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/gold.svg" alt="">
                     <p class="after-header__card-title">Наша результативность:</p>
                     <p><strong>10-кратное увеличение продаж</strong> после проведения информационного взрыва</p>
@@ -367,7 +367,7 @@ Template Post Type: post, page, product
             <div class="col-12">
                 <p class="price-list__contact">Контакты</p>
             </div>
-            <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-0 offset-lg-2">
+            <div class="col-12 col-md-8 offset-md-2 col-lg-5 offset-0 offset-lg-1 col-xl-4 offset-xl-2">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Радмир Рахимов</p>
@@ -379,7 +379,7 @@ Template Post Type: post, page, product
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-8 offset-md-2 offset-0 offset-lg-0 col-lg-4">
+            <div class="col-12 col-md-8 offset-md-2 offset-0 offset-lg-0 col-lg-5 col-xl-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Наиль Шарипов</p>
