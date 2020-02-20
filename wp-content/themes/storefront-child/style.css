@@ -300,7 +300,6 @@ header#masthead .site-phone {
 }
 
 header#masthead.black-header .site-phone > a {
-    text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
@@ -310,20 +309,21 @@ header#masthead.black-header .site-phone > a {
 
 header#masthead.black-header .site-phone > a:hover {
     color: #FFFFFF;
-
 }
 
 header#masthead .site-phone > a {
-    text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
     color: #000000;
+    display: block;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
 }
 
 header#masthead .site-phone > a:hover {
     color: #000000;
+    transform: translateY(-2px);
 }
 
 .navbar-dark .navbar-toggler {
@@ -922,6 +922,12 @@ body .btn.btn-primary {
     transition: all 135ms cubic-bezier(.4, 0, .2, 1);
 }
 
+body .btn.btn-primary:active, body .btn.btn-primary:focus, body .btn.btn-primary:not(:disabled):not(.disabled):focus, body .btn.btn-primary:not(:disabled):not(.disabled):active {
+    outline: none;
+    background: #d13e20;
+    border-color: #d13e20;
+}
+
 .btn.btn-primary:hover {
     background: #d13e20;
 }
@@ -1261,6 +1267,12 @@ body .price-list .alert.alert-success {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+    display: block;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.price-list__contact-card .price-list__contact-card__phone > a:hover {
+    transform: translateY(-2px);
 }
 
 .price-list__contact-card .price-list__contact-card__email {
@@ -1272,6 +1284,13 @@ body .price-list .alert.alert-success {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+    display: block;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.price-list__contact-card .price-list__contact-card__email > a:hover {
+    transform: translateY(-2px);
+
 }
 
 
@@ -1697,6 +1716,12 @@ footer.site-footer .footer-contacts__phone > a {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
+    display: block;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+}
+
+footer.site-footer .footer-contacts__phone > a:hover {
+    transform: translateY(-2px);
 }
 
 footer.site-footer .footer-contacts__email {
@@ -1710,6 +1735,21 @@ footer.site-footer .footer-contacts__email > a {
     text-align: center;
     letter-spacing: -0.01em;
     color: #FFFFFF;
+    display: block;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.footer-credits > a.credits {
+    display: block;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+}
+
+.footer-credits > a.credits:hover {
+    transform: scale(1.2);
+}
+
+footer.site-footer .footer-contacts__email > a:hover {
+    transform: translateY(-2px);
 }
 
 footer.site-footer {
