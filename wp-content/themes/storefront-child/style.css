@@ -1335,7 +1335,7 @@ body .alert.alert-success {
     font-family: 'Russo One', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 60px;
     text-align: center;
     color: #0F0F0F;
@@ -1345,7 +1345,7 @@ body .alert.alert-success {
 .projects .projects__footer {
     font-style: italic;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 33px;
     text-align: center;
     color: #3C3C3C;
@@ -1381,7 +1381,7 @@ body .alert.alert-success {
     font-family: 'Russo One', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 29px;
     color: #000000;
     margin-bottom: 15px;
@@ -1389,7 +1389,7 @@ body .alert.alert-success {
 
 .project-card .project-card__content {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #000000;
     margin-bottom: 25px;
@@ -1406,7 +1406,7 @@ body .alert.alert-success {
 
 .project-card .project-card__media > p {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #000000;
     margin-bottom: 10px;
@@ -1414,7 +1414,7 @@ body .alert.alert-success {
 
 .project-card__media .additional-link {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #E84323;
     position: relative;
@@ -1438,7 +1438,7 @@ body .alert.alert-success {
     bottom: 25px;
     right: 40px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #E84323;
 }
