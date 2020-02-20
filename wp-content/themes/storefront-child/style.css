@@ -689,7 +689,7 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 }
 
 .after-header__card {
-    margin-bottom: 80px;
+    margin-bottom: 95px;
 }
 
 .after-header__card:first-of-type {
@@ -724,7 +724,8 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
     line-height: 25px;
     text-align: center;
     color: #DDDDDD;
-    padding: 0px 31px;
+    padding: 0px 25px;
+    margin-bottom: 10;
 }
 
 .after-header__card p > strong {
@@ -754,7 +755,7 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 
 .explosive {
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 103px;
     background: url('/wp-content/themes/storefront-child/svg/Ellipse.svg'), round;
     position: relative;
 }
@@ -776,7 +777,7 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
     line-height: 60px;
     text-align: center;
     color: #0F0F0F;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 
 .explosive__header > span {
@@ -812,11 +813,11 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
     content: counter(li);
     color: #E84323;
     display: flex;
-    width: 1em;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 33px;
     margin-right: 40px;
+    align-items: center;
 }
 
 .explosive ol > li p {
@@ -849,7 +850,7 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
 
 .presentation {
     background: #FFEACA url('/wp-content/themes/storefront-child/svg/eclipse-presentation.svg');
-    padding-top: 90px;
+    padding-top: 95px;
     padding-bottom: 100px;
     position: relative;
 }
@@ -1242,7 +1243,7 @@ body .price-list .alert.alert-success {
 }
 
 .price-list__contact-card .price-list__contact-card__body {
-    padding: 30px 60px 25px 60px;
+    padding: 30px 50px 25px 50px;
 }
 
 .price-list__contact-card .price-list__contact-card__name {
@@ -1484,7 +1485,7 @@ body .alert.alert-success {
 .publication.black-post {
     position: relative;
     padding-top: 40px;
-    padding-bottom: 105px;
+    padding-bottom: 107px;
 }
 
 .publication {
@@ -1815,6 +1816,7 @@ footer.site-footer .footer-terms {
     line-height: 18px;
     letter-spacing: -0.01em;
     color: #FFFFFF;
+    vertical-align: text-top;
 }
 
 /*--------------------------------------------------------------

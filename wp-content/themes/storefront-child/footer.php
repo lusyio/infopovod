@@ -15,7 +15,7 @@
 <?php do_action('storefront_before_footer'); ?>
 
 <footer id="colophon" class="site-footer" role="contentinfo">
-    <div class="container pt-3 pb-3">
+    <div class="container">
         <div class="row">
             <div class="col-12 text-center col-lg-4 text-lg-left footer-logo mb-lg-0 mb-4">
                 <div class="site-info">
