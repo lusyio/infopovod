@@ -2213,6 +2213,14 @@ and (max-width: 768px) {
         padding-bottom: 75px;
     }
 
+    .project-card .project-card__content{
+        margin-bottom: 15px;
+    }
+
+    .project-card__media{
+        margin-bottom: 30px;
+    }
+
     .after-header {
         padding-top: 30px;
         padding-bottom: 50px;
