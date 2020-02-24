@@ -82,6 +82,10 @@ h1.entry-title {
     text-align: center;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .widget_nav_menu ul li::before {
     content: '';
     display: none;
@@ -724,8 +728,8 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
     line-height: 25px;
     text-align: center;
     color: #DDDDDD;
-    padding: 0px 25px;
-    margin-bottom: 10;
+    padding: 0 25px;
+    margin-bottom: 10px;
 }
 
 .after-header__card p > strong {
@@ -2107,6 +2111,12 @@ table:not( .has-background ) tbody td {
 /*--------------------------------------------------------------
 # MEDIA
 --------------------------------------------------------------*/
+
+@media screen and (max-width: 1350px) and (min-width: 1200px) {
+    .publication > img {
+        width: 60%;
+    }
+}
 
 @media screen
 and (min-width: 1200px) {
