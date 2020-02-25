@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.2
+Version:      	1.0.3
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -1369,8 +1369,9 @@ body .alert.alert-success {
 .project-card {
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
+    height: 100%;
 }
 
 .project-card .project-card__img {
@@ -1383,7 +1384,10 @@ body .alert.alert-success {
 
 .project-card .project-card__body {
     padding: 25px 35px 25px 25px;
-    height: 465px;
+}
+
+.projects .col-lg-6 {
+    margin-bottom: 30px;
 }
 
 .project-card .project-card__header {
@@ -2112,9 +2116,9 @@ table:not( .has-background ) tbody td {
 # MEDIA
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 1350px) and (min-width: 1200px) {
+@media screen and (max-width: 1450px) and (min-width: 1200px) {
     .publication > img {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -2182,10 +2186,6 @@ and (max-width: 1199px) {
 
     .outer-menu .menu ul {
         text-align: left;
-    }
-
-    .project-card .project-card__body {
-        height: 450px;
     }
 
 }
