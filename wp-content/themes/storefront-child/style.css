@@ -1694,6 +1694,63 @@ body .howItWorks_card .alert.alert-success {
 # FOOTER
 --------------------------------------------------------------*/
 
+.oferta {
+    background: #E84323;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.oferta .oferta-body {
+    padding: 62px 0;
+}
+
+.oferta-body .oferta-body__text {
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #EFEFEF;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
+
+.oferta-body .oferta-body__text a {
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.oferta.stop-fixed{
+    position: absolute;
+}
+
+#content{
+    position: relative;
+}
+
+.oferta .oferta-body .btn.btn-oferta {
+    border: 1px solid #FDFDFD;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #FDFDFD;
+    padding: 18px 65px;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50px;
+    height: 70px;
+    max-height: unset;
+    background: transparent;
+    transition: 135ms ease-in-out;
+}
+
+.oferta .oferta-body .btn.btn-oferta:hover{
+    background: transparent;
+    transform: translateY(-5px);
+}
+
 .socials img {
     -webkit-transition: 200ms;
     -moz-transition: 200ms;
