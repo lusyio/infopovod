@@ -92,7 +92,9 @@ remove_action('wp_head', 'index_rel_link');
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10);
 remove_action('wp_head', 'wp_shortlink_wp_head', 10);
 
-wp_enqueue_script('custom', '/wp-content/themes/storefront-child/inc/assets/js/custom.js', array('jquery'), array(), true);
+$my_js_ver = date("ymd-Gis", filemtime(plugin_dir_path(__FILE__) . 'js/custom.js'));
+
+wp_enqueue_script('custom', '/wp-content/themes/storefront-child/inc/assets/js/custom.js', array('jquery'), $my_js_ver, true);
 
 
 /**
