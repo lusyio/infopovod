@@ -2373,10 +2373,6 @@ and (max-width: 991px) {
 
 @media screen and (max-width: 768px) {
 
-    .publication .post__header {
-        padding: 0;
-    }
-
     .oferta .oferta-body {
         padding: 40px 0;
     }
@@ -2554,7 +2550,7 @@ and (max-width: 991px) {
         font-size: 24px;
         line-height: 29px;
         margin-bottom: 25px;
-        padding: 0px 30px 0px 5px;
+        padding: 0 30px 0 0;
     }
 
     .publication .post__title {
