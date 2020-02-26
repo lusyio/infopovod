@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.6
+Version:      	1.0.7
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -1720,11 +1720,11 @@ body .howItWorks_card .alert.alert-success {
     color: #FFFFFF;
 }
 
-.oferta.stop-fixed{
+.oferta.stop-fixed {
     position: absolute;
 }
 
-#content{
+#content {
     position: relative;
 }
 
@@ -1746,7 +1746,7 @@ body .howItWorks_card .alert.alert-success {
     transition: 135ms ease-in-out;
 }
 
-.oferta .oferta-body .btn.btn-oferta:hover{
+.oferta .oferta-body .btn.btn-oferta:hover {
     background: transparent;
     transform: translateY(-5px);
 }
@@ -2283,6 +2283,10 @@ and (max-width: 1199px) {
         text-align: left;
     }
 
+    .oferta .oferta-body .btn.btn-oferta {
+        padding: 18px 55px;
+    }
+
 }
 
 @media screen
@@ -2342,6 +2346,15 @@ and (max-width: 991px) {
         line-height: 18px;
         letter-spacing: -0.01em;
         color: #9B9B9B;
+    }
+
+    .oferta .oferta-body {
+        padding: 50px 0;
+    }
+
+    .oferta .oferta-body .btn.btn-oferta {
+        margin: auto;
+        margin-top: 30px;
     }
 }
 
