@@ -286,14 +286,15 @@ add_action('init', 'custom_remove_footer_credit', 10);
 function custom_remove_footer_credit()
 {
     remove_action('storefront_footer', 'storefront_credit', 20);
-    add_action('storefront_footer', 'custom_storefront_credit', 20);
+//    add_action('storefront_footer', 'custom_storefront_credit', 20);
 }
 
 
 //Добавление favicon
 function favicon_link()
 {
-    echo '<link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />' . "\n";
+    echo '<link rel="icon" type="image/png" href="/favicon.png" />' . "\n";
+    echo '<link rel="shortcut icon" type="image/png" href="/favicon.png" />' . "\n";
 }
 
 add_action('wp_head', 'favicon_link');
