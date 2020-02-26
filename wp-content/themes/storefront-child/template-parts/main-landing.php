@@ -21,19 +21,19 @@ Template Post Type: post, page, product
             </div>
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4  after-header__card">
-                    <img src="/wp-content/themes/storefront-child/svg/chat.svg" alt="">
+                    <img src="/wp-content/themes/storefront-child/svg/chat.svg" alt="icon-chat">
                     <p class="after-header__card-title">Наше преимущество:</p>
                     <p>Личные дружественные связи с представителями <strong>ТОП-100 СМИ</strong> России и мира</p>
                 </div>
                 <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4 after-header__card">
-                    <img src="/wp-content/themes/storefront-child/svg/trophy.svg" alt="">
+                    <img src="/wp-content/themes/storefront-child/svg/trophy.svg" alt="icon-trophy">
                     <p class="after-header__card-title">Наш рекорд:</p>
                     <p>В одном из выпусков новостей <strong>Первого Канала 3 из 7 сюжетов</strong> были сгенерированы
                         нами
                     </p>
                 </div>
                 <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4 after-header__card">
-                    <img src="/wp-content/themes/storefront-child/svg/gold.svg" alt="">
+                    <img src="/wp-content/themes/storefront-child/svg/gold.svg" alt="icon-gold">
                     <p class="after-header__card-title">Наша результативность:</p>
                     <p><strong>10-кратное увеличение продаж</strong> после проведения информационного взрыва</p>
                 </div>
@@ -93,7 +93,7 @@ Template Post Type: post, page, product
                 </div>
                 <div class="row presentation__card">
                     <div class="col-12 col-lg-7">
-                        <img src="/wp-content/themes/storefront-child/images/presentation.png" alt="">
+                        <img src="/wp-content/themes/storefront-child/images/presentation.png" alt="presentation">
                     </div>
                     <div class="col-12 col-lg-5 pr-lg-5 pr-unset m-auto">
                         <p>Посмотрите <strong>презентацию компании</strong>, чтобы получить полное представление о
@@ -134,7 +134,7 @@ Template Post Type: post, page, product
             </div>
         </div>
     </div>
-    <img src="/wp-content/themes/storefront-child/images/jackie.png" alt="">
+    <img src="/wp-content/themes/storefront-child/images/jackie.png" alt="jackie">
 </div>
 
 <div class="publication">
@@ -163,7 +163,7 @@ Template Post Type: post, page, product
             </div>
         </div>
     </div>
-    <img src="/wp-content/themes/storefront-child/images/buzova.png" alt="">
+    <img src="/wp-content/themes/storefront-child/images/buzova.png" alt="buzova">
 </div>
 
 <div class="yellow-post publication">
@@ -190,11 +190,11 @@ Template Post Type: post, page, product
             </div>
         </div>
     </div>
-    <img src="/wp-content/themes/storefront-child/images/goat.png" alt="">
+    <img src="/wp-content/themes/storefront-child/images/goat.png" alt="goat">
 </div>
 
 <div class="black-post last publication">
-    <img src="/wp-content/themes/storefront-child/images/hacker.png" alt="">
+    <img src="/wp-content/themes/storefront-child/images/hacker.png" alt="hacker">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-0 offset-lg-7">
@@ -235,13 +235,13 @@ Template Post Type: post, page, product
                 <?= do_shortcode("[caldera_form id=\"CF5e4d14e3f2f55\"]") ?>
             </div>
             <div class="col-lg-2 d-lg-flex d-none">
-                <img class="first-arrow" src="/wp-content/themes/storefront-child/svg/1st-arrow.svg" alt="">
+                <img class="first-arrow" src="/wp-content/themes/storefront-child/svg/1st-arrow.svg" alt="icon-arrow">
             </div>
             <div class="col-12 col-lg-5 howItWorks_card mt-auto">
                 <div><span>2</span>
                     <p class="mb-lg-2 mb-0">Мы <strong>придумываем 50 идей</strong> и выбираем 10 из них</p></div>
                 <img class="d-lg-block d-none m-auto" src="/wp-content/themes/storefront-child/svg/2nd-arrow.svg"
-                     alt="">
+                     alt="icon-arrow">
             </div>
             <div class="col-12 col-lg-6 offset-0 offset-lg-6 howItWorks_card mt-lg-4 mt-0">
                 <div>
@@ -251,7 +251,7 @@ Template Post Type: post, page, product
             </div>
             <div class="col-12 col-lg-6 offset-0 offset-lg-2 howItWorks_card">
                 <img class="d-lg-block d-none m-auto" src="/wp-content/themes/storefront-child/svg/3rd-arrow.svg"
-                     alt="">
+                     alt="icon-arrow">
                 <div>
                     <span>4</span>
                     <p>Вы одобряете акцию и уже через два дня вы или ваш товар будет греметь по всей стране и даже
@@ -274,7 +274,7 @@ Template Post Type: post, page, product
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <p>Поможем восстановить репутацию вашего бренда (продукцию, услуги, нематериальных ресурсов) от
                     последствий черного PR и информационных войн</p>
-                <img src="/wp-content/themes/storefront-child/images/service-bg.png" alt="">
+                <img src="/wp-content/themes/storefront-child/images/service-bg.png" alt="service">
             </div>
         </div>
     </div>
@@ -293,12 +293,12 @@ Template Post Type: post, page, product
                         <p>Крышесносный сценарий инфоповода без реализации</p>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Генерация идеи</p>
                         </div>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Самостоятельная
                                 реализация заказчиком</p>
                         </div>
@@ -313,17 +313,17 @@ Template Post Type: post, page, product
                         <p>Мощный новостной взрыв Федерального уровня</p>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Генерация идеи</p>
                         </div>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Реализация инфоповода</p>
                         </div>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Гарантированное
                                 количество публикаций в <strong>федеральных СМИ</strong> – 25</p>
                         </div>
@@ -338,17 +338,17 @@ Template Post Type: post, page, product
                         <p>Молниеносный захват мировых информационных площадок</p>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Генерация идеи</p>
                         </div>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Реализация инфоповода</p>
                         </div>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
-                                 alt="">
+                                 alt="icon-checked">
                             <p>Гарантированное количество публикаций в <strong>федеральных
                                     и международных СМИ</strong> – 30</p>
                         </div>
