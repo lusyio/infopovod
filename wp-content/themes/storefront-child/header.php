@@ -48,7 +48,7 @@
                             <?php else : ?>
                                 <div class="site-info">
                                     <a class="site-title"
-                                       href="<?php echo esc_url(home_url('/')); ?>"> PR-агенство <br
+                                       href="<?php echo esc_url(home_url('/')); ?>"> PR-агентство <br
                                                 class="d-lg-none d-block">
                                         <span>«<?php esc_url(bloginfo('name')); ?>»</span>
                                     </a>

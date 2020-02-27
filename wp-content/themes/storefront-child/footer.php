@@ -44,7 +44,7 @@
             <div class="col-12 text-center col-lg-4 text-lg-left footer-logo mb-lg-0 mb-4">
                 <div class="site-info">
                     <a class="site-title"
-                       href="<?php echo esc_url(home_url('/')); ?>"> PR-агенство
+                       href="<?php echo esc_url(home_url('/')); ?>"> PR-агентство
                         <span>«<?php esc_url(bloginfo('name')); ?>»</span>
                     </a>
                     <p class="mb-0 site-description"><?php bloginfo('description'); ?></p>
