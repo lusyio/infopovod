@@ -182,8 +182,8 @@ Template Post Type: post, page, product
                 <p class="post__content">Существенный рост продаж</p>
 
                 <div class="publications">
-                    <p class="publications__media"><span>5</span>Сюжетов на ТВ</p>
-                    <p class="publications__media"><span>70</span>Публикаций в федеральных СМИ</p>
+                    <p class="publications__media"><span>4</span>Сюжета на ТВ</p>
+                    <p class="publications__media"><span>29</span>Публикаций в федеральных СМИ</p>
                 </div>
 
                 <a href="https://youtu.be/EJlwU2d6YVQ" target="_blank" class="btn btn-outline">Смотреть видео</a>
