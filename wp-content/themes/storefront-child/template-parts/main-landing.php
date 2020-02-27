@@ -99,7 +99,7 @@ Template Post Type: post, page, product
                         <p>Посмотрите <strong>презентацию компании</strong>, чтобы получить полное представление о
                             ее
                             деятельности</p>
-                        <a href="#" download class="btn btn-primary">Скачать презентацию</a>
+                        <a href="/wp-content/themes/storefront-child/docs/Pr-агентство Инфоповод.pdf" download class="btn btn-primary">Скачать презентацию</a>
                     </div>
                 </div>
             </div>
