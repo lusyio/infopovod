@@ -2373,6 +2373,15 @@ and (max-width: 991px) {
 
 @media screen and (max-width: 768px) {
 
+    .project-card{
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .projects .col-lg-6{
+        margin-bottom: 0;
+    }
+
     .oferta .oferta-body {
         padding: 40px 0;
     }
