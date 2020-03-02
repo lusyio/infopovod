@@ -369,7 +369,7 @@ Template Post Type: post, page, product
         <div id="contact" class="row">
             <div class="col-12">
                 <p class="price-list__contact">Контакты</p>
-                <p class="price-list__number"><a href="">+7 926 917 21 23</a></p>
+                <p class="price-list__number"><a href="tel:+79269172123">+7 926 917 21 23</a></p>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="price-list__contact-card">
