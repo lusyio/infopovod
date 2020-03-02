@@ -218,7 +218,8 @@ Template Post Type: post, page, product
                     <p class="publications__media"><span>60</span>Публикаций в федеральных СМИ</p>
                 </div>
 
-                <a href="https://www.youtube.com/watch?v=lKTmqmX1yIY&feature=youtu.be&t=1601" target="_blank" class="btn btn-outline">Смотреть
+                <a href="https://www.youtube.com/watch?v=lKTmqmX1yIY&feature=youtu.be&t=1601" target="_blank"
+                   class="btn btn-outline">Смотреть
                     видео</a>
             </div>
         </div>
@@ -368,27 +369,34 @@ Template Post Type: post, page, product
         <div id="contact" class="row">
             <div class="col-12">
                 <p class="price-list__contact">Контакты</p>
+                <p class="price-list__number"><a href="">+7 926 917 21 23</a></p>
             </div>
-            <div class="col-12 col-md-8 offset-md-2 col-lg-5 offset-0 offset-lg-1 col-xl-4 offset-xl-2">
+            <div class="col-12 col-lg-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Радмир Рахимов</p>
                         <p class="price-list__contact-card__position">Креативный директор</p>
-                        <p class="price-list__contact-card__phone"><a href="tel:+7 (926) 917-21-23">+7 (926)
-                                917-21-23</a></p>
                         <p class="price-list__contact-card__email"><a href="mailto:rahimov@infopovod.agency">rahimov@infopovod.agency</a>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-8 offset-md-2 offset-0 offset-lg-0 col-lg-5 col-xl-4">
+            <div class="col-12 col-lg-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Наиль Шарипов</p>
                         <p class="price-list__contact-card__position">Исполнительный директор</p>
-                        <p class="price-list__contact-card__phone"><a href="tel:+7 (922) 223-76-62">+7 (922)
-                                223-76-62</a></p>
                         <p class="price-list__contact-card__email"><a href="mailto:sharipov@infopovod.agency">sharipov@infopovod.agency</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="price-list__contact-card">
+                    <div class="price-list__contact-card__body">
+                        <p class="price-list__contact-card__name">Рустам Серебряков</p>
+                        <p class="price-list__contact-card__position">Директор по развитию</p>
+                        <p class="price-list__contact-card__email"><a href="mailto:sharipov@infopovod.agency">rustam@infopovod.agency</a>
                         </p>
                     </div>
                 </div>

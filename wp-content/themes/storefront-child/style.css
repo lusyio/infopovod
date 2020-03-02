@@ -1243,7 +1243,26 @@ body .price-list .alert.alert-success {
     line-height: 60px;
     text-align: center;
     color: #0F0F0F;
+    margin-bottom: 15px;
+}
+
+.price-list .price-list__number {
+    text-align: center;
     margin-bottom: 30px;
+}
+
+.price-list .price-list__number > a {
+    font-family: 'Russo One', sans-serif;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #0F0F0F;
+    transition: all 200ms cubic-bezier(.4, 0, .2, 1);
+    display: inline-block;
+}
+
+.price-list .price-list__number > a:hover {
+    transform: translateY(-2px);
 }
 
 .price-list__contact-card {
@@ -1304,7 +1323,6 @@ body .price-list .alert.alert-success {
 
 .price-list__contact-card .price-list__contact-card__email > a:hover {
     transform: translateY(-2px);
-
 }
 
 
@@ -2373,12 +2391,12 @@ and (max-width: 991px) {
 
 @media screen and (max-width: 768px) {
 
-    .project-card{
+    .project-card {
         height: auto;
         margin-bottom: 30px;
     }
 
-    .projects .col-lg-6{
+    .projects .col-lg-6 {
         margin-bottom: 0;
     }
 
