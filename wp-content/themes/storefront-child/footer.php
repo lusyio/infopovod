@@ -67,7 +67,7 @@
                 ?>
             </div>
             <div class="col-12 footer-contacts text-center col-lg-2 text-lg-right">
-                <p class="footer-contacts__phone"><a href="tel:+7 926 917-21-23">8 (926) 917-21-23</a></p>
+                <p class="footer-contacts__phone"><a href="tel:+7 926 917-21-23">+7 (926) 917-21-23</a></p>
                 <p class="footer-contacts__email"><a href="mailto:post@infopovod.agency">post@infopovod.agency</a></p>
             </div>
             <div class="col-12">

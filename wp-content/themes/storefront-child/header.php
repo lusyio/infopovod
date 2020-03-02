@@ -117,7 +117,7 @@
                             </div>
                         </div>
                         <div class="d-lg-flex d-none">
-                            <p class="site-phone"><a href="tel:+7 926 917-21-23">8 (926) 917-21-23</a></p>
+                            <p class="site-phone"><a href="tel:+7 926 917-21-23">+7 (926) 917-21-23</a></p>
                         </div>
                     </nav>
             </div>

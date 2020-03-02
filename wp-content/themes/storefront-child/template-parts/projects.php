@@ -59,8 +59,8 @@ Template Post Type: post, page, product
 
         <?php endforeach; ?>
         <div class="col-12 col-lg-8 offset-lg-2 offset-0">
-            <p class="projects__footer"><strong>Еще 400 кейсов</strong> мы не имеем права обнародовать в ближайшие 50
-                лет по договору о неразглашении.</p>
+            <p class="projects__footer"><strong>Еще более 350 кейсов</strong> мы не можем раскрывать по соображениям
+                конфиденциальности.</p>
         </div>
     </div>
 </div>

@@ -14,17 +14,11 @@ Template Post Type: post, page, product
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-10 offset-lg-1 offset-0">
-                    <p class="after-header__header">Генерим <span>информационные бомбы с гарантией.</span> Моментальное
-                        внимание
-                        федеральных СМИ к вам или к вашему бренду. <span>От заявки до популярности 24 часа</span></p>
+                    <p class="after-header__header">Наш фетиш <span>вирусный PR.</span> Обеспечиваем ажиотажное внимание
+                        федеральных СМИ к персоне или бренду <span>От заявки до популярности 48 часов</span></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4  after-header__card">
-                    <img src="/wp-content/themes/storefront-child/svg/chat.svg" alt="icon-chat">
-                    <p class="after-header__card-title">Наше преимущество:</p>
-                    <p>Личные дружественные связи с представителями <strong>ТОП-100 СМИ</strong> России и мира</p>
-                </div>
                 <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4 after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/trophy.svg" alt="icon-trophy">
                     <p class="after-header__card-title">Наш рекорд:</p>
@@ -32,9 +26,14 @@ Template Post Type: post, page, product
                         нами
                     </p>
                 </div>
+                <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4  after-header__card">
+                    <img src="/wp-content/themes/storefront-child/svg/chat.svg" alt="icon-chat">
+                    <p class="after-header__card-title">Наше преимущество:</p>
+                    <p>Крепкие многолетние связи с <strong>ведущими СМИ</strong></p>
+                </div>
                 <div class="col-12 col-md-8 offset-md-2 offset-lg-0 offset-0 col-lg-4 after-header__card">
                     <img src="/wp-content/themes/storefront-child/svg/gold.svg" alt="icon-gold">
-                    <p class="after-header__card-title">Наша результативность:</p>
+                    <p class="after-header__card-title">Результат клиента:</p>
                     <p><strong>10-кратное увеличение продаж</strong> после проведения информационного взрыва</p>
                 </div>
             </div>
@@ -57,21 +56,17 @@ Template Post Type: post, page, product
             </div>
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <ol>
-                    <li><p>Увеличение узнаваемости переходит в рост продаж клиента.</p></li>
-                    <li><p>Экономия: вы фактически бесплатно попадаете в те телепрограммы, куда других не могут
-                            попасть
-                            и за деньги.</p></li>
-                    <li><p>Раскрутка новых предложений известных брендов при минимальных затратах.</p></li>
-                    <li><p>Быстрый вывод на рынок нового бренда, услуги, товара, эксперта.</p></li>
-                    <li><p>Моментальное нивелирование репутационных потерь, вызванных действиями
-                            недоброжелателей.</p>
+                    <li><p>Взрывной рост внимания к вашему бренду, продукту, услуге.</p></li>
+                    <li><p>Значительная экономия рекламного бюджета.</p></li>
+                    <li><p>Открытые двери - вы попадаете в те СМИ, куда другие не могут попасть и за деньги.</p></li>
+                    <li><p>Когда важна скорость – быстрый вывод продукта. 48 часов до известности.</p></li>
+                    <li><p>Эффективный репутационный трабл-шутинг.</p>
                     </li>
                 </ol>
             </div>
             <div class="col-12 col-lg-6 offset-0 offset-lg-3">
-                <p class="explosive__footer">Мы те волшебники, которые сделают вас или ваш продукт просто
-                    необходимыми
-                    для СМИ.</p>
+                <p class="explosive__footer">Благодаря нам телеканалы, информагентства и радиостанции устроят настоящую
+                    охоту на вас или ваш продукт.</p>
             </div>
         </div>
     </div>
@@ -86,9 +81,10 @@ Template Post Type: post, page, product
                 </p>
                 <div class="row">
                     <div class="col-12 col-lg-8 offset-0 offset-lg-2">
-                        <p class="presentation__text">Ничего лишнего. Наше агентство специализируется исключительно
-                            на
-                            одной услуге - создание информационных взрывов. Поэтому об этом деле мы знаем всё.</p>
+                        <p class="presentation__text">Ничего лишнего. Наше агентство специализируется исключительно на
+                            одной услуге - создании вирусных информационных акций. Потому что мы хотим, чтобы наши
+                            клиенты получали от нас продукт самого высокого разряда.
+                        </p>
                     </div>
                 </div>
                 <div class="row presentation__card">
@@ -99,7 +95,8 @@ Template Post Type: post, page, product
                         <p>Посмотрите <strong>презентацию компании</strong>, чтобы получить полное представление о
                             ее
                             деятельности</p>
-                        <a href="/wp-content/themes/storefront-child/docs/Pr-агентство Инфоповод.pdf" download class="btn btn-primary">Скачать презентацию</a>
+                        <a href="/wp-content/themes/storefront-child/docs/Pr-агентство Инфоповод.pdf" download
+                           class="btn btn-primary">Скачать презентацию</a>
                     </div>
                 </div>
             </div>
@@ -111,23 +108,25 @@ Template Post Type: post, page, product
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-0 offset-lg-7">
-                <p class="post__header">Привлечение к субсидиарке Джеки Чана и Шварцнегера</p>
+                <p class="post__header">Привлечение к судебной ответственности Джеки Чана и Шварцнегера</p>
                 <p class="post__title">Заказчик:</p>
-                <p class="post__content">Группа инвесторов и финансистов</p>
+                <p class="post__content">Группа инвесторов</p>
                 <p class="post__title">Задача:</p>
+                <p class="post__content">Внести недобросовестного продюсера в чёрные списки инвесторов</p>
+                <p class="post__title">Метод:</p>
                 <p class="post__content">Привлечь внимание мировой общественности к проблемам отечественного
                     кинопроизводсва.</p>
                 <p class="post__title">Суть инфоповода:</p>
-                <p class="post__content">Арнольда Шварценеггера и Джеки Чана привлекает к субсидиарной
-                    ответственности обманутый продюсером инвестор фильма</p>
+                <p class="post__content">Арнольда Шварценеггера и Джеки Чана привлекает к субсидиарной ответственности
+                    инвестор фильма, обманутый недобросовестным продюсером</p>
                 <p class="post__title">Результат</p>
-                <p class="post__content">Более 250 публикаций и сюжетов в федеральных и мировых СМИ. Голливудские
-                    актеры побоялись приехать в Россию на премьеру фильма. Имя продюсера попало в черные списки
-                    инвесторов.</p>
+                <p class="post__content">
+                    Голливудские актеры не приехали в Россию на премьеру фильма
+                </p>
 
                 <div class="publications">
-                    <p class="publications__media"><span>8</span>Сюжетов на ТВ</p>
-                    <p class="publications__media"><span>250</span>Публикаций в федеральных СМИ</p>
+                    <p class="publications__media"><span>8</span>Сюжетов на ТВ и радио</p>
+                    <p class="publications__media"><span>250</span>публикаций в федеральных и мировых СМИ</p>
                 </div>
 
                 <a href="https://youtu.be/ngfEkJHMPb8" target="_blank" class="btn btn-outline">Смотреть видео</a>
@@ -145,14 +144,17 @@ Template Post Type: post, page, product
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">Адвокат Тимур Маршани</p>
                 <p class="post__title">Задача:</p>
+                <p class="post__content">Значительно увеличить клиентский трафик</p>
+                <p class="post__title">Метод:</p>
                 <p class="post__content">Привлечь внимание государства к недостаткам ФЗ “О рекламе”</p>
                 <p class="post__title">Суть инфоповода:</p>
-                <p class="post__content">Обманутый инвалид подал в суд на звезд, рекламировавших финансовую пирамиду
+                <p class="post__content">Обманутый инвалид подал в суд на звезд, рекламирующих финансовую пирамиду
                     «Кэшбери»</p>
                 <p class="post__title">Результат</p>
-                <p class="post__content">Разработан законопроект, который повышает ответственность публичных персон
-                    при
-                    использовании собственного лица в качестве гаранта качества продукта рекламе</p>
+                <p class="post__content">
+                    Разработан законопроект, который повышает ответственность публичных персон при использовании
+                    собственного лица в качестве гаранта качества продукта рекламе
+                </p>
 
                 <div class="publications">
                     <p class="publications__media"><span>5</span>Сюжетов на ТВ</p>
@@ -174,10 +176,9 @@ Template Post Type: post, page, product
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">“Экокомплект”</p>
                 <p class="post__title">Задача:</p>
-                <p class="post__content">Увеличить продажи домов с газонами на крыше. Суть инфоповода: зоозащитники
-                    пытались похитить козлов, живущих на крыше дома</p>
+                <p class="post__content">увеличить продажи домов с газонами на крыше.</p>
                 <p class="post__title">Суть инфоповода:</p>
-                <p class="post__content">Зоозащитники пытались похитить козлов, живущих на крыше дома</p>
+                <p class="post__content">зоозащитники пытались похитить козлов, живущих на крыше дома</p>
                 <p class="post__title">Результат</p>
                 <p class="post__content">Существенный рост продаж</p>
 
@@ -198,25 +199,26 @@ Template Post Type: post, page, product
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-0 offset-lg-7">
-                <p class="post__header">Хакерская атакая на АЭС</p>
+                <p class="post__header">Хакерская атака на АЭС</p>
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">Московский завод «Физприбор»</p>
                 <p class="post__title">Задача:</p>
+                <p class="post__content">Получить контракты в России и выйти на зарубежный рынок</p>
+                <p class="post__title">Метод:</p>
                 <p class="post__content">Продемонстрировать госкорпорациям новую систему безопасности стратегических
                     объектов.</p>
                 <p class="post__title">Суть инфоповода:</p>
-                <p class="post__content">Поставщик систем безопасности для АЭС предложил хакерам взломать
-                    инновационный
+                <p class="post__content">Поставщик систем безопасности для АЭС предложил хакерам взломать инновационный
                     модуль защиты, основанной на советской жесткой логике</p>
                 <p class="post__title">Результат</p>
-                <p class="post__content">Несколько новых контрактов, интерес зарубежных компаний</p>
+                <p class="post__content">Несколько новых контрактов, интерес зарубежных компаний.</p>
 
                 <div class="publications">
                     <p class="publications__media"><span>4</span>Сюжетов на ТВ</p>
                     <p class="publications__media"><span>60</span>Публикаций в федеральных СМИ</p>
                 </div>
 
-                <a href="https://ren.tv/video/embed/567286#autoplay=1" target="_blank" class="btn btn-outline">Смотреть
+                <a href="https://www.youtube.com/watch?v=lKTmqmX1yIY&feature=youtu.be&t=1601" target="_blank" class="btn btn-outline">Смотреть
                     видео</a>
             </div>
         </div>
@@ -246,8 +248,8 @@ Template Post Type: post, page, product
             <div class="col-12 col-lg-6 offset-0 offset-lg-6 howItWorks_card mt-lg-4 mt-0">
                 <div>
                     <span>3</span>
-                    <p>В процессе <strong>консультаций с журналистами и юристами мы оставляем 2
-                            максимально</strong> эффективные и безопасные идеи, которые презентуем вам</p></div>
+                    <p>После <strong>журналистской и юридической экспертизы мы оставляем две </strong> максимально
+                        эффективные идеи, которые презентуем вам</p></div>
             </div>
             <div class="col-12 col-lg-6 offset-0 offset-lg-2 howItWorks_card">
                 <img class="d-lg-block d-none m-auto" src="/wp-content/themes/storefront-child/svg/3rd-arrow.svg"
@@ -258,8 +260,8 @@ Template Post Type: post, page, product
                         миру!</p></div>
             </div>
             <div class="col-12 col-lg-8 offset-0 offset-lg-2 howItWorks__footer">
-                <p>Наша задача, чтобы федеральные каналы и другие СМИ стояли в очереди к вам за интервью. Причем это
-                    сюжет и статьи будут опубликованы ими совершенно бесплатно!</p>
+                <p>Наша задача, чтобы телеканалы и другие СМИ стояли в очереди к вам за интервью. Если это не
+                    получается, мы повторяем вирусную акцию за наш счет.</p>
             </div>
         </div>
     </div>
@@ -272,8 +274,8 @@ Template Post Type: post, page, product
                 <p class="service__header">Услуга “Восстановление репутации”</p>
             </div>
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
-                <p>Поможем восстановить репутацию вашего бренда (продукцию, услуги, нематериальных ресурсов) от
-                    последствий черного PR и информационных войн</p>
+                <p>Поможем восстановить репутацию бренда, продукции, услуги от последствий черного PR и информационных
+                    войн</p>
                 <img src="/wp-content/themes/storefront-child/images/service-bg.png" alt="service">
             </div>
         </div>
@@ -289,8 +291,8 @@ Template Post Type: post, page, product
             <div class="col-12 col-md-8 offset-lg-0 offset-0 offset-md-2 col-lg-4">
                 <div class="price-list__card">
                     <div class="price-list__card-body">
-                        <p class="price-list__card-title">Брейншторм</p>
-                        <p>Крышесносный сценарий инфоповода без реализации</p>
+                        <p class="price-list__card-title">Проснуться знаменитым</p>
+                        <p>Нет опыта, есть сомнения, хочу взрывной рост известности</p>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                  alt="icon-checked">
@@ -302,15 +304,15 @@ Template Post Type: post, page, product
                             <p>Самостоятельная
                                 реализация заказчиком</p>
                         </div>
-                        <span>120.000 р</span>
+                        <span>600.000 р</span>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-8 offset-lg-0 offset-0 offset-md-2 col-lg-4">
                 <div class="price-list__card">
                     <div class="price-list__card-body">
-                        <p class="price-list__card-title">Бомбалейло</p>
-                        <p>Мощный новостной взрыв Федерального уровня</p>
+                        <p class="price-list__card-title">Зарабатываю, когда хочу</p>
+                        <p>Знаю, что работает, многократно окупил вложения, хочу ещё</p>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                  alt="icon-checked">
@@ -327,15 +329,15 @@ Template Post Type: post, page, product
                             <p>Гарантированное
                                 количество публикаций в <strong>федеральных СМИ</strong> – 25</p>
                         </div>
-                        <span>550.000 р</span>
+                        <span>от 900.000 р</span>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-8 offset-lg-0 offset-0 offset-md-2 col-lg-4">
                 <div class="price-list__card">
                     <div class="price-list__card-body">
-                        <p class="price-list__card-title">Барбаросса</p>
-                        <p>Молниеносный захват мировых информационных площадок</p>
+                        <p class="price-list__card-title">Стратег</p>
+                        <p>Хочу взлетать в ТОП СМИ каждый месяц</p>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                  alt="icon-checked">
@@ -352,7 +354,7 @@ Template Post Type: post, page, product
                             <p>Гарантированное количество публикаций в <strong>федеральных
                                     и международных СМИ</strong> – 30</p>
                         </div>
-                        <span>1.000.000 р</span>
+                        <span>от 700.000 р</span>
                     </div>
                 </div>
             </div>
