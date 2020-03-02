@@ -14,30 +14,6 @@
 
 <?php do_action('storefront_before_footer'); ?>
 
-<?php if (!isset($_COOKIE['oferta']) && $_COOKIE['oferta'] !== 'hide'): ?>
-    <div class="oferta">
-        <div class="container">
-            <div class="oferta-body">
-                <div class="row">
-                    <div class="col-lg-8 col-12">
-                        <p class="oferta-body__text">Обращаясь в агентство “Инфоповод”, вы даете свое согласие с
-                            действием
-                            оферты
-                            <a href="/wp-content/themes/storefront-child/docs/Оферта.pdf">о неразглашении данных</a>.
-                            Если
-                            вы не
-                            согласны с положениями оферты, то просим незамедлительно закрыть сайт.
-                            Благодарим за понимание</p>
-                    </div>
-                    <div class="col-lg-3 col-12 offset-lg-1 offset-0">
-                        <button id="closeOferta" class="btn btn-oferta">Я согласен</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<?php endif; ?>
-
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="container">
         <div class="row">
@@ -82,10 +58,6 @@
                     </div>
                     <div class="col-lg-6 col-12 order-lg-2 order-1">
                         <div class="d-block d-lg-flex">
-                            <p class="mb-0 mr-lg-5 mr-0">
-                                <a class="footer-terms" href="/wp-content/themes/storefront-child/docs/Оферта.pdf">Договор
-                                    оферты</a>
-                            </p>
                             <p class="mb-0">
                                 <a class="footer-terms" href="/wp-content/themes/storefront-child/docs/Политика.pdf">Политика
                                     конфиденциальности</a>
