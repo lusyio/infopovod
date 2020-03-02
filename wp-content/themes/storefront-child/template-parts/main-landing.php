@@ -376,7 +376,7 @@ Template Post Type: post, page, product
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Радмир Рахимов</p>
                         <p class="price-list__contact-card__position">Креативный директор</p>
-                        <p class="price-list__contact-card__email"><a href="mailto:rahimov@infopovod.agency">rahimov@infopovod.agency</a>
+                        <p class="price-list__contact-card__email"><a href="mailto:rahimov@infopovod.agency">radmir@infopovod.agency</a>
                         </p>
                     </div>
                 </div>
@@ -386,7 +386,7 @@ Template Post Type: post, page, product
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Наиль Шарипов</p>
                         <p class="price-list__contact-card__position">Исполнительный директор</p>
-                        <p class="price-list__contact-card__email"><a href="mailto:sharipov@infopovod.agency">sharipov@infopovod.agency</a>
+                        <p class="price-list__contact-card__email"><a href="mailto:sharipov@infopovod.agency">nail@infopovod.agency</a>
                         </p>
                     </div>
                 </div>
