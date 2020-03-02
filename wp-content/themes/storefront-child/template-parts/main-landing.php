@@ -396,7 +396,7 @@ Template Post Type: post, page, product
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Рустам Серебряков</p>
                         <p class="price-list__contact-card__position">Директор по развитию</p>
-                        <p class="price-list__contact-card__email"><a href="mailto:sharipov@infopovod.agency">rustam@infopovod.agency</a>
+                        <p class="price-list__contact-card__email"><a href="mailto:rustam@infopovod.agency">rustam@infopovod.agency</a>
                         </p>
                     </div>
                 </div>
