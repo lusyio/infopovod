@@ -2227,11 +2227,6 @@ table:not( .has-background ) tbody td {
 
 @media screen and (min-width: 1980px) {
 
-    .yellow-post.publication > img {
-        display: block;
-        position: relative;
-    }
-
     .publication > img {
         left: auto;
         right: 20%;
