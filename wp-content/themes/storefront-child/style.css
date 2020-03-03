@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.14
+Version:      	1.0.15
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -2230,6 +2230,10 @@ table:not( .has-background ) tbody td {
     .publication > img {
         left: auto;
         right: 20%;
+    }
+
+    .black-post.publication.last > img{
+        left: 10%;
     }
 
     .black-post.publication > img {
