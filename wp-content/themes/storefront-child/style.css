@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.12
+Version:      	1.0.13
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -2224,6 +2224,76 @@ table:not( .has-background ) tbody td {
 /*--------------------------------------------------------------
 # MEDIA
 --------------------------------------------------------------*/
+
+
+@media screen and (min-width: 3400px) {
+
+    .publication > img {
+        left: auto;
+        right: 34%;
+    }
+
+    .black-post.last.publication > img {
+        width: 40%;
+    }
+
+    .black-post.publication > img {
+        right: auto;
+        left: 28%;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .publication > img {
+        left: auto;
+        right: 30%;
+    }
+
+    .black-post.publication > img {
+        right: auto;
+        left: 20%;
+    }
+
+    .black-post.last.publication > img {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 2600px) {
+    .publication > img {
+        left: auto;
+        right: 25%;
+    }
+
+    .black-post.publication > img {
+        right: auto;
+        left: 15%;
+    }
+}
+
+@media screen and (min-width: 2350px) {
+    .black-post.last.publication > img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1980px) {
+
+    .yellow-post.publication > img{
+        display: block;
+        position: relative;
+    }
+
+    .publication > img {
+        left: auto;
+        right: 20%;
+    }
+
+    .black-post.publication > img {
+        right: auto;
+        left: 10%;
+    }
+}
 
 @media screen and (max-width: 1450px) and (min-width: 1200px) {
     .publication > img {
