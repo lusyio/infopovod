@@ -2,7 +2,9 @@ jQuery(function ($) {
     const $page = $('html, body');
     $('a[href*="#"]').on('click', function () {
         let blockId = $.attr(this, 'href').slice(1)
-        $('.checkbox-toggle').trigger('click')
+        if ($('.checkbox-toggle').is(':checked')) {
+            $('.checkbox-toggle').trigger('click')
+        }
         $page.animate({
             scrollTop: $(`${blockId}`).offset().top - 50
         }, 1500);
