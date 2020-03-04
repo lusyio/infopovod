@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.17
+Version:      	1.0.18
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -1884,7 +1884,7 @@ footer.site-footer .footer-contacts__email {
 
 footer.site-footer .footer-contacts__email > a {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 19px;
     text-align: center;
     letter-spacing: -0.01em;
