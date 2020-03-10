@@ -403,7 +403,7 @@ Template Post Type: post, page, product
                             <td>900 000 ₽</td>
                         </tr>
                         <tr>
-                            <th scope="row">Цена контракта</th>
+                            <th scope="row">Цена контакта</th>
                             <td>3-4,5 ₽</td>
                             <td>9 копеек</td>
                         </tr>

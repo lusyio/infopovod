@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.20
+Version:      	1.0.21
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -2526,6 +2526,10 @@ and (max-width: 991px) {
 }
 
 @media screen and (max-width: 768px) {
+
+    .table-container .table.table-bordered{
+        font-size: 1.2rem;
+    }
 
     .project-card {
         height: auto;
