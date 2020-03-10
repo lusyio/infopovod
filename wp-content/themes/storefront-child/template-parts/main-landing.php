@@ -14,7 +14,8 @@ Template Post Type: post, page, product
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-10 offset-lg-1 offset-0">
-                    <p class="after-header__header">Наш фетиш <span>вирусный PR.</span> Обеспечиваем ажиотажное внимание
+                    <p class="after-header__header">Наш фетиш - <span>вирусный PR.</span> Обеспечиваем ажиотажное
+                        внимание
                         федеральных СМИ к персоне или бренду <span>От заявки до популярности 48 часов</span></p>
                 </div>
             </div>
@@ -283,7 +284,7 @@ Template Post Type: post, page, product
     </div>
 </div>
 
-<div id="price" class="price-list">
+<div id="price" class="price-list top">
     <div class="container">
         <div class="row row-top">
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
@@ -297,15 +298,19 @@ Template Post Type: post, page, product
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                  alt="icon-checked">
-                            <p>Генерация идеи</p>
+                            <p>Генерация и реализация идеи</p>
                         </div>
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                  alt="icon-checked">
-                            <p>Самостоятельная
-                                реализация заказчиком</p>
+                            <p>Оцените мощь вирусного PR!</p>
                         </div>
-                        <span>600.000 р</span>
+                        <div class="price-list__card-list">
+                            <img src="/wp-content/themes/storefront-child/svg/checked.svg"
+                                 alt="icon-checked">
+                            <p>Гарантированное количество публикаций в <strong>федеральных СМИ</strong> – 20</p>
+                        </div>
+                        <span>от 600.000 ₽</span>
                     </div>
                 </div>
             </div>
@@ -330,7 +335,7 @@ Template Post Type: post, page, product
                             <p>Гарантированное
                                 количество публикаций в <strong>федеральных СМИ</strong> – 25</p>
                         </div>
-                        <span>от 900.000 р</span>
+                        <span>от 900.000 ₽</span>
                     </div>
                 </div>
             </div>
@@ -352,14 +357,65 @@ Template Post Type: post, page, product
                         <div class="price-list__card-list">
                             <img src="/wp-content/themes/storefront-child/svg/checked.svg"
                                  alt="icon-checked">
-                            <p>Гарантированное количество публикаций в <strong>федеральных
-                                    и международных СМИ</strong> – 30</p>
+                            <p>Гарантированное количество публикаций в <strong>федеральных СМИ</strong> – 30</p>
                         </div>
-                        <span>от 700.000 р</span>
+                        <span>от 700.000 ₽</span>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="table-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12 offset-0 offset-lg-2">
+                <p class="table-container__header">Каждый информационный повод приносит нашему клиенту аудиторию,
+                    стоимостью около <span>45 миллионов рублей</span> в измерениях классического рекламного бюджета. При
+                    этом, цена контакта отличается <span>в 50 раз</span></p>
+            </div>
+            <div class="col-lg-10 col-12 offset-0 offset-lg-1">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Прямая реклама</th>
+                            <th scope="col">Вирусный инфоповод</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Количество идентичных СМИ</th>
+                            <td>24</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Охват аудитории</th>
+                            <td>около 10 млн чел</td>
+                            <td>около 10 млн чел</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Стоимость</th>
+                            <td>30-45 млн ₽</td>
+                            <td>900 000 ₽</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Цена контракта</th>
+                            <td>3-4,5 ₽</td>
+                            <td>9 копеек</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="price-list">
+    <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <p class="price-list__request">Оставьте заявку, и мы с вами свяжемся в течение 15 минут</p>
