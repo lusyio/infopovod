@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.19
+Version:      	1.0.20
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -1670,8 +1670,14 @@ body .howItWorks_card .alert.alert-success {
     font-weight: normal;
 }
 
+.table-container tbody th span{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
 .table-container tbody th {
     color: #E84323;
+    max-width: 365px;
 }
 
 .table-container table:not( .has-background ) tbody td, .table-container table:not( .has-background ) tbody tr:nth-child(2n) td, fieldset, fieldset legend, .table-container table:not( .has-background ) th {

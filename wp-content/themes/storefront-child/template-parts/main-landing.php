@@ -387,7 +387,8 @@ Template Post Type: post, page, product
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row">Количество идентичных СМИ</th>
+                            <th scope="row">Количество идентичных СМИ <span>(ТОП-4 ТВ-каналов, ТОП-20 печатных и интернет изданий)</span>
+                            </th>
                             <td>24</td>
                             <td>24</td>
                         </tr>
