@@ -57,11 +57,11 @@ Template Post Type: post, page, product
             </div>
             <div class="col-12 col-lg-8 offset-0 offset-lg-2">
                 <ol>
-                    <li><p>Взрывной рост внимания к вашему бренду, продукту, услуге.</p></li>
-                    <li><p>Значительная экономия рекламного бюджета.</p></li>
-                    <li><p>Открытые двери - вы попадаете в те СМИ, куда другие не могут попасть и за деньги.</p></li>
-                    <li><p>Когда важна скорость – быстрый вывод продукта. 48 часов до известности.</p></li>
-                    <li><p>Эффективный репутационный трабл-шутинг.</p>
+                    <li><p><span>Взрывной рост</span> внимания к вашему бренду, продукту, услуге.</p></li>
+                    <li><p><span>Значительная экономия</span> рекламного бюджета.</p></li>
+                    <li><p><span>Открытые двери</span> - вы попадаете в те СМИ, куда другие не могут попасть и за деньги.</p></li>
+                    <li><p><span>Когда важна скорость</span> – быстрый вывод продукта. 48 часов до известности.</p></li>
+                    <li><p>Эффективный <span>репутационный</span> трабл-шутинг.</p>
                     </li>
                 </ol>
             </div>
@@ -109,7 +109,7 @@ Template Post Type: post, page, product
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-0 offset-lg-7">
-                <p class="post__header">Привлечение к судебной ответственности Джеки Чана и Шварцнегера</p>
+                <p class="post__header">Привлечение к судебной ответственности Джеки Чана и Шварценегера</p>
                 <p class="post__title">Заказчик:</p>
                 <p class="post__content">Группа инвесторов</p>
                 <p class="post__title">Задача:</p>
@@ -122,6 +122,7 @@ Template Post Type: post, page, product
                     инвестор фильма, обманутый недобросовестным продюсером</p>
                 <p class="post__title">Результат</p>
                 <p class="post__content">
+                    <span>Недобросовестный продюсер в чёрных списках инвесторов</span>
                     Голливудские актеры не приехали в Россию на премьеру фильма
                 </p>
 
@@ -153,6 +154,7 @@ Template Post Type: post, page, product
                     «Кэшбери»</p>
                 <p class="post__title">Результат</p>
                 <p class="post__content">
+                    <span>Рост клиентского трафика в 9 раз</span>
                     Разработан законопроект, который повышает ответственность публичных персон при использовании
                     собственного лица в качестве гаранта качества продукта рекламе
                 </p>
@@ -181,7 +183,7 @@ Template Post Type: post, page, product
                 <p class="post__title">Суть инфоповода:</p>
                 <p class="post__content">зоозащитники пытались похитить козлов, живущих на крыше дома</p>
                 <p class="post__title">Результат</p>
-                <p class="post__content">Существенный рост продаж</p>
+                <p class="post__content"><span>Существенный рост траффика сайта и рост продаж</span></p>
 
                 <div class="publications">
                     <p class="publications__media"><span>4</span>Сюжета на ТВ</p>
@@ -212,7 +214,7 @@ Template Post Type: post, page, product
                 <p class="post__content">Поставщик систем безопасности для АЭС предложил хакерам взломать инновационный
                     модуль защиты, основанной на советской жесткой логике</p>
                 <p class="post__title">Результат</p>
-                <p class="post__content">Несколько новых контрактов, интерес зарубежных компаний.</p>
+                <p class="post__content"><span>Несколько новых контрактов, интерес зарубежных компаний.</span></p>
 
                 <div class="publications">
                     <p class="publications__media"><span>4</span>Сюжетов на ТВ</p>
