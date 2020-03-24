@@ -3,7 +3,7 @@ Theme Name:   	Richbee
 Author:       	Richbee
 Template:     	storefront
 Description:  	Дочерняя тема для storefront
-Version:      	1.0.18
+Version:      	1.0.22
 Theme URI:    https://richbee.ru/
 Author URI:   https://richbee.ru/
 
@@ -829,6 +829,10 @@ header#masthead.black-header .navbar .navbar-nav .nav-link {
     align-items: center;
 }
 
+.explosive ol > li p > span{
+    color: #E84323;
+}
+
 .explosive ol > li p {
     font-weight: normal;
     font-size: 24px;
@@ -1106,8 +1110,22 @@ body .howItWorks .alert.alert-success {
     padding-bottom: 80px;
 }
 
+.price-list.top {
+    position: relative;
+}
+
+.price-list.top:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background: linear-gradient(179deg, transparent 0%, transparent 50%, #131313 50.6%, #131313 100%);
+}
+
 .price-list .row-top {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 body .price-list .alert.alert-success {
@@ -1613,8 +1631,66 @@ body .howItWorks_card .alert.alert-success {
     color: #121212;
 }
 
+.publication .post__content span {
+    color: #E84323;
+    display: block;
+}
+
 .publication .post__content:last-of-type {
     margin-bottom: 40px;
+}
+
+.table-container {
+    position: relative;
+    padding-bottom: 110px;
+    padding-top: 90px;
+    background: #131313;
+}
+
+.table-container:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    background: linear-gradient(179deg, transparent 0%, transparent 50%, #fff 50.6%, #fff 100%);
+}
+
+.table-container .table-container__header {
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.table-container .table-container__header > span {
+    color: #E84323;
+}
+
+.table-container .table.table-bordered {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.table-container table th {
+    font-weight: normal;
+}
+
+.table-container tbody th span {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.table-container tbody th {
+    color: #E84323;
+    max-width: 365px;
+}
+
+.table-container table:not( .has-background ) tbody td, .table-container table:not( .has-background ) tbody tr:nth-child(2n) td, fieldset, fieldset legend, .table-container table:not( .has-background ) th {
+    background: transparent;
 }
 
 
@@ -2459,6 +2535,10 @@ and (max-width: 991px) {
 }
 
 @media screen and (max-width: 768px) {
+
+    .table-container .table.table-bordered {
+        font-size: 1.2rem;
+    }
 
     .project-card {
         height: auto;
