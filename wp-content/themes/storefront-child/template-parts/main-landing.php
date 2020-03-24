@@ -214,7 +214,7 @@ Template Post Type: post, page, product
                 <p class="post__content">Несколько новых контрактов, интерес зарубежных компаний.</p>
 
                 <div class="publications">
-                    <p class="publications__media"><span>4</span>Сюжетов на ТВ</p>
+                    <p class="publications__media"><span>4</span>Сюжета на ТВ</p>
                     <p class="publications__media"><span>60</span>Публикаций в федеральных СМИ</p>
                 </div>
 
