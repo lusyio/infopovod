@@ -59,7 +59,8 @@ Template Post Type: post, page, product
                 <ol>
                     <li><p><span>Взрывной рост</span> внимания к вашему бренду, продукту, услуге.</p></li>
                     <li><p><span>Значительная экономия</span> рекламного бюджета.</p></li>
-                    <li><p><span>Открытые двери</span> - вы попадаете в те СМИ, куда другие не могут попасть и за деньги.</p></li>
+                    <li><p><span>Открытые двери</span> - вы попадаете в те СМИ, куда другие не могут попасть и за
+                            деньги.</p></li>
                     <li><p><span>Когда важна скорость</span> – быстрый вывод продукта. 48 часов до известности.</p></li>
                     <li><p>Эффективный <span>репутационный</span> трабл-шутинг.</p>
                     </li>
@@ -428,13 +429,13 @@ Template Post Type: post, page, product
         <div id="contact" class="row">
             <div class="col-12">
                 <p class="price-list__contact">Контакты</p>
-                <p class="price-list__number"><a href="tel:+79269172123">+7 926 917 21 23</a></p>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
                         <p class="price-list__contact-card__name">Радмир Рахимов</p>
                         <p class="price-list__contact-card__position">Креативный директор</p>
+                        <p class="price-list__contact-card__email"><a href="tel:+79269172123">+7 926 917 21 23</a>
                         <p class="price-list__contact-card__email"><a href="mailto:rahimov@infopovod.agency">radmir@infopovod.agency</a>
                         </p>
                     </div>
@@ -443,9 +444,10 @@ Template Post Type: post, page, product
             <div class="col-12 col-lg-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
-                        <p class="price-list__contact-card__name">Наиль Шарипов</p>
+                        <p class="price-list__contact-card__name">Олег Бушуев</p>
                         <p class="price-list__contact-card__position">Исполнительный директор</p>
-                        <p class="price-list__contact-card__email"><a href="mailto:sharipov@infopovod.agency">nail@infopovod.agency</a>
+                        <p class="price-list__contact-card__email"><a href="tel:+79167333896">+7 916 733 38 96</a>
+                        <p class="price-list__contact-card__email"><a href="mailto:media@infopovod.agency">media@infopovod.agency</a>
                         </p>
                     </div>
                 </div>
@@ -453,9 +455,10 @@ Template Post Type: post, page, product
             <div class="col-12 col-lg-4">
                 <div class="price-list__contact-card">
                     <div class="price-list__contact-card__body">
-                        <p class="price-list__contact-card__name">Рустам Серебряков</p>
+                        <p class="price-list__contact-card__name">Андрей Братякин</p>
                         <p class="price-list__contact-card__position">Директор по развитию</p>
-                        <p class="price-list__contact-card__email"><a href="mailto:rustam@infopovod.agency">rustam@infopovod.agency</a>
+                        <p class="price-list__contact-card__email"><a href="tel:+7 920 838 52 81">+7 920 838 52 81</a>
+                        <p class="price-list__contact-card__email"><a href="mailto:rustam@infopovod.agency">sales@infopovod.agency</a>
                         </p>
                     </div>
                 </div>
